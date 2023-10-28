@@ -3,12 +3,8 @@ onnxruntime
 numpy
 torch
 torchvision
-PIL
-base64
-io
+Pillow
 flask
-PIL
 flask_cors
 numpy
 joblib
-os
