@@ -50,5 +50,9 @@ def upload():
 
     return {"message": "ok", "producto": product, "clasificacion": classification}
 
+@servidorWeb.route("/hello", methods=["GET"])
+def hello():
+    return {"message": "ok"}
+
 if __name__ == "__main__":
     servidorWeb.run(debug=False, host="0.0.0.0", port="8083")
