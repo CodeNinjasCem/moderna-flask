@@ -1,0 +1,14 @@
+onnx
+onnxruntime
+numpy
+torch
+torchvision
+PIL
+base64
+io
+flask
+PIL
+flask_cors
+numpy
+joblib
+os
